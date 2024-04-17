@@ -2,8 +2,8 @@ import React from 'react'
 
 function Featured() {
   return (
-    <div>
-        <div>
+    <div className=''>
+        <div className='pl-16'>
             <p>--- Our Recommendation</p>
             <div>
                 <div>

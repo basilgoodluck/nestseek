@@ -7,7 +7,7 @@ const Hero = () => {
         <div className='relative'>
             <img src='./images/Color Blur.png' alt='Blur color' className='absolute top-0 left-0'/>
             <img src='./images/hero.png' alt='heroImage' className='absolute top-0 right-0 w-100 h-5/6 '/>
-            <div className='flex m-auto py-3 px-16 justify-between items-center fixed w-full'>
+            <div className='flex m-auto py-3 px-16 justify-between items-center fixed w-full z-50'>
                 <h1 className='font-bold'>NestSeek</h1>
                 <div className='flex justify-between items-center'>
                     <div className='flex justify-between items-center px-9'>
