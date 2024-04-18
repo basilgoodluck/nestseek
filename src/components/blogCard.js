@@ -4,13 +4,13 @@ import { MdAccessTimeFilled } from "react-icons/md";
 function BlogCard() {
   return (
     <div>
-        <div>
-            <div className='flex justify-start'>
-                <img src='' alt='profileIMg' />
-                <p className='pl-6'>Dianne Russell</p>
+        <div className='grid grid-cols-1 gap-3 pl-6'>
+            <div className='flex justify-start items-center'>
+                <img src='./images/robert.png' alt='profileIMg' />
+                <p className='pl-3'>Dianne Russell</p>
             </div>
             <h4>The things we need to check when we want to buy a house</h4>
-            <p><MdAccessTimeFilled /> 4 min read | 18 April 2024</p>
+            <p><MdAccessTimeFilled className='inline' /> 4 min read | 18 April 2024</p>
         </div>      
     </div>
   )
