@@ -8,6 +8,7 @@ module.exports = {
     "./src/components/reviewCard.js",
     "./src/components/review.js",
     "./src/components/blogCard.js",
+    "./src/components/blog.js",
 
   ],
   theme: {

@@ -11,19 +11,19 @@ function Blog() {
 
             <div className='flex justify-center items-center'>
                 <div className='w-1/2'>
-                    <div className='flex justify-start items-center'>
+                    <div className='flex justify-start items-center py-6 pr-16'>
                         <div className='w-10'>
                             <img src='./images/blogImg-3.png' alt='blogImg'/>
                         </div>
                         <BlogCard />
                     </div>
-                    <div className='flex justify-start items-center'>
+                    <div className='flex justify-start items-center py-16 pr-16'>
                         <div>
                             <img src='./images/blogImg-2.png' alt='blogImg'/>
                         </div>
                         <BlogCard />
                     </div>
-                    <div className='flex justify-start items-center'>
+                    <div className='flex justify-start items-center py-16 pr-16'>
                       <div>
                           <img src='./images/blogImg.png' alt='blogImg'/>
                       </div>
