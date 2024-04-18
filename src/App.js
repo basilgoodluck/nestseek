@@ -1,5 +1,6 @@
 import './App.css';
 import Featured from './components/featured';
+import FeaturedCard from './components/featuredCard';
 import Hero from './components/hero';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Hero />
       <Featured />
+      <FeaturedCard />
     </div>
   );
 }
