@@ -2,7 +2,8 @@ import './App.css';
 import Featured from './components/featured';
 import Hero from './components/hero';
 import Tour from './components/tour'
-import ReviewCard from './components/reviewCard';
+import Review from './components/review';
+import Blog from './components/blog';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Hero />
       <Featured />
       <Tour />
-      <ReviewCard />
+      <Review />
+      <Blog />
     </div>
   );
 }
