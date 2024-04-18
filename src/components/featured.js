@@ -6,10 +6,10 @@ function Featured() {
   return (
     <div className=''>
         <div className='pl-16'>
-            <p className='text-orange-400 pb-4'>--- Our Recommendation</p>
-            <div className='pb-3'>
+            <p className='text-orange-400 pb-4 '>--- Our Recommendation</p>
+            <div className='pb-3 pl-6'>
                 <div className='flex justify-between pr-16 items-center'>
-                    <h1 className='w-2/6'>Featured House</h1>
+                    <h1 className='w-2/6 text-2xl font-bold'>Featured House</h1>
                     <div className='flex justify-center items-center w-1/3'>
                         <p className='ml-5 bg-green-400 py-1 px-4 rounded-3xl text-sm'>House</p>
                         <p className='ml-5 bg-gray-200 py-1 px-4 rounded-3xl text-sm'>Villa</p>
@@ -21,7 +21,9 @@ function Featured() {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-start items-center py-2'>
+            <div className='flex justify-start items-center py-2 pl-6 overflow-x-hidden'>
+                <FeaturedCard />
+                <FeaturedCard />
                 <FeaturedCard />
                 <FeaturedCard />
                 <FeaturedCard />
