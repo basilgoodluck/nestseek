@@ -2,9 +2,9 @@ import React from 'react'
 
 function FeaturedCard() {
   return (
-    <div className='pr-5 w-3/12'>
+    <div className='pr-5' style={{minWidth: "300px", maxWidth: "300px"}}>
       <div className='pb-4'>
-        <img src='./images/roseland.png' houseImg/>
+        <img src='./images/roseland.png' alt='houseImag' />
       </div>     
       <h1 className='pb-4'>Roselands House</h1>
       <p className='pb-4'>$ 50,000,000</p>   
