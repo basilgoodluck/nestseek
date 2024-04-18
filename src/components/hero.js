@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <div className='h-screen w-screen'>
         <div className='relative'>
-            <img src='./images/Color Blur.png' alt='Blur color' className='absolute top-0 left-0'/>
-            <img src='./images/hero.png' alt='heroImage' className='absolute top-0 right-0 w-100 h-5/6 '/>
-            <div className='flex m-auto py-3 px-16 justify-between items-center fixed w-full'>
+            <img src='./images/Color Blur.png' alt='Blur color' className='absolute top-0 left-0 w-1/2'/>
+            <img src='./images/hero.png' alt='heroImage' className='absolute top-0 right-0 w-1/2 h-5/6 '/>
+            <div className='flex m-auto py-3 px-16 justify-between items-center fixed w-full z-50'>
                 <h1 className='font-bold'>NestSeek</h1>
                 <div className='flex justify-between items-center'>
-                    <div className='flex justify-between items-center px-9'>
+                    <div className='flex justify-between items-center px-9 text-white'>
                         <a href='./' className='border-white border-2 rounded-3xl bg-transparent py-2 px-4 mr-9'>About us</a>
                         <a href='./' className='border-white border-2 rounded-3xl bg-transparent py-2 px-4 mr-9'>Article</a>
                         <a href='./' className='border-white border-2 rounded-3xl bg-transparent py-2 px-4 mr-9'>Property</a>
@@ -37,10 +37,10 @@ const Hero = () => {
                         <img src='/images/tiketcom.png' alt='Logos' />
                     </div>
                 </div>
-                <div className='z-10 flex justify-center w-1/3'>
-                    <img src='./images/1k Peoples.png' alt='' className='' style={{width: "200px"}}/>
-                    <img src='./images/4k+.png' alt='' className='' style={{width: "200px"}}/>
-                    <img src='./images/56-houses.png' alt='' className='' style={{width: "200px"}}/>
+                <div className='z-10 flex justify-start items-center w-1/2 overflow-x-hidden' >
+                    <img src='./images/1k Peoples.png' alt='' className='w-1/3' />
+                    <img src='./images/4k+.png' alt='' className='w-1/3' />
+                    <img src='./images/56-houses.png' alt='' className='w-1/3' />
                 </div>
             </div>
         </div>        
