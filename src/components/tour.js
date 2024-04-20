@@ -4,11 +4,12 @@ import { IoCallSharp } from "react-icons/io5";
 function Tour() {
   return (
     <div>
-      <div className='px-16 pt-8 pb-8 flex justify-between items-center m-auto'>
-        <div className='w-1/2 pr-16'>
+      <div className='pl-2 lg:px-16 pt-8 pb-8 flex justify-between lg:items-center flex-col lg:flex-row m-auto'>
+        <div className='lg:w-1/2 lg:pr-16'>
           <p className='text-orange-400 pb-4'>--- Ready To Sell</p>
-          <div className='pl-6 '>
+          <div className='px-6 '>
             <h1 className='font-bold text-2xl'>Let’s tour and see our house!</h1>
+            <img src='./images/tour.png' alt='ronald' className='lg:hidden block' />
             <p className='text-4 text-gray-600'>Houses recommended by our partners that have been curated to become the home of your dreams!</p>
             <h4 className='font-bold '>House Detail</h4>
             <div className='grid grid-rows-2 grid-flow-col gap-4 pb-6 text-gray-600'>
@@ -32,7 +33,7 @@ function Tour() {
           </div>
         </div>
         <div className=''>
-          <img alt='tour' src='./images/tour.png' className=''/>
+          <img alt='tour' src='./images/tour.png' className='lg:block hidden'/>
         </div>
       </div>
     </div>

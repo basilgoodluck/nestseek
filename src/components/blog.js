@@ -9,15 +9,15 @@ function Blog() {
             <p className='text-orange-400 text-center'>See Our Review</p>
             <h1 className='font-bold text-2xl text-center'>What Our Users Say About Us</h1>
 
-            <div className='flex justify-center items-center pt-6'>
-                <div className='w-1/2'>
-                    <div className='flex justify-start items-center py-3 pr-6'>
+            <div className='flex justify-start items-start lg:justify-center lg:items-center pt-6 lg:flex-row flex-col'>
+                <div className='lg:w-1/2'>
+                    <div className='flex justify-start lg:items-center py-3 lg:pr-6'>
                         <div className=''>
                             <img src='./images/blogImg-3.png' alt='blogImg'/>
                         </div>
                         <BlogCard />
                     </div>
-                    <div className='flex justify-start items-center py-3 pr-6'>
+                    <div className='flex justify-start items-center py-3 lg:pr-6'>
                         <div>
                             <img src='./images/blogImg-2.png' alt='blogImg'/>
                         </div>
