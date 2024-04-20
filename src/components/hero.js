@@ -5,13 +5,13 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 const Hero = () => {
     
   return (
-    <div className='h-screen w-screen pb-8'>
+    <div className='lg:h-screen w-screen pb-8'>
         <div className='relative'>
             <img src='./images/Color Blur.png' alt='Blur color' className='absolute top-0 left-0 w-1/2'/>
-            <img src='./images/hero.png' alt='heroImage' className='absolute top-0 right-0 w-1/2 h-5/6 '/>
+            <img src='./images/hero.png' alt='heroImage' className='hidden lg:block absolute top-0 right-0 w-1/2 h-5/6 '/>
             <Header />
-            <div className='flex m-auto items-center justify-between h-screen py-3 pl-16 overflow-x-hidden'>
-                <div className='item-start relative w-2/5'>
+            <div className='flex m-auto lg:items-center flex-col lg:flex-row justify-center h-screen py-3 px-2 lg:pl-16 overflow-x-hidden'>
+                <div className='item-start relative lg:w-2/5'>
                     <h1 className='font-black text-4xl pb-5' style={{fontFamily: "lexend"}}>Find The Place to Live Your Dream Easily Here</h1>
                     <p className="pb-5">Everything you need about finding your place to live will be here, where it will be easier for you</p>
                     <form className='pb-5'>
