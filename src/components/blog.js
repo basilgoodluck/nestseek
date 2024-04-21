@@ -4,7 +4,7 @@ import BlogCard from './blogCard'
 function Blog() {
   return (
     <div>
-        <div className='px-16 pt-8 pb-8'>
+        <div className='px-2 lg:px-16 pt-8 pb-8'>
             <p className='text-orange-400 text-center'>---</p>
             <p className='text-orange-400 text-center'>See Our Review</p>
             <h1 className='font-bold text-2xl text-center'>What Our Users Say About Us</h1>
@@ -29,10 +29,9 @@ function Blog() {
                       </div>
                         <BlogCard />
                     </div>
-                    
                 </div>
-                <div className='w-1/2 self-start grid grid-cols-1 gap-3'>
-                    <div className='pl-4'><img src='./images/blogImg-4.png' alt='sddsjfo'/></div>
+                <div className='lg:w-1/2 self-start grid grid-cols-1 gap-3'>
+                    <div className='lg:pl-4'><img src='./images/blogImg-4.png' alt='sddsjfo'/></div>
                     <BlogCard />
                 </div>
             </div>
