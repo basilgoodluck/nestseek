@@ -23,10 +23,10 @@ const Hero = () => {
                     </form>
                     <p className='font-bold'>Our Partnership</p>
                     <div className='flex justify-start lg:pb-3 items-center'>
-                        <img src='/images/airbnb.png' alt='Logos' className='py-2 pr-6'/>
-                        <img src='/images/traveloka_logo 2.png' alt='Logos' className='py-2 pr-6'/>
-                        <img src='/images/tripadvisor.png' alt='Logos' className='py-2 pr-6'/>
-                        <img src='/images/tiketcom.png' alt='Logos' className='py-2 pr-2'/>
+                        <img src='/images/airbnb.png' alt='Logos' className='py-2 pr-2 lg:pr-6'/>
+                        <img src='/images/traveloka_logo 2.png' alt='Logos' className='py-2 pr-2 lg:pr-6'/>
+                        <img src='/images/tripadvisor.png' alt='Logos' className='py-2 pr-2 lg:pr-6'/>
+                        <img src='/images/tiketcom.png' alt='Logos' className='py-2 pr-2 lg:pr-2'/>
                     </div>
                 </div>
                 {/* <div className='z-10 flex justify-start items-start w-1/2 overflow-x-hidden' >
