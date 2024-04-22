@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa";
 function ReviewCard() {
   return (
     <div>
-        <div className='flex items-center justify-center m-auto p-2 lg:p-6'>
+        <div className='flex items-center justify-center m-auto p-2 lg:p-6 text-md'>
             <div className='relative' style={{minHeight: '50vh'}}>
                 <img src='./images/reviewImg-c.png' alt='reviewImg-c'/>
                 <div className='absolute -bottom-0 left-0 right-0 shadow-2xl p-6 bg-white rounded-3xl w-4/5 m-auto'>
