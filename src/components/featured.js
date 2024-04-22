@@ -5,7 +5,7 @@ import FeaturedCard from './featuredCard';
 function Featured() {
   return (
     <div className=''>
-        <div className='pl-2 lg:pl-16 pt-3 lg:pt-8 b-3 lg:pb-8'>
+        <div className='pl-2 lg:pl-16 pt-3 lg:pt-8 pb-3 lg:pb-8'>
             <p className='text-orange-400 pb-4 '>--- Our Recommendation</p>
             <div className='pb-3 pl-6'>
                 <div className='flex justify-between lg:pr-16 items-center'>
