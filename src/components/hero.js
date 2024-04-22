@@ -5,7 +5,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 const Hero = () => {
     
   return (
-    <div className='lg:h-screen w-screen lg:pb-8'>
+    <div className='h-screen lg:h-screen w-screen lg:pb-8'>
         <div className='relative'>
             <img src='./images/Color Blur.png' alt='Blur color' className='absolute top-0 left-0 w-1/2'/>
             <img src='./images/hero.png' alt='heroImage' className='hidden lg:block absolute top-0 right-0 w-1/2 h-5/6 '/>
