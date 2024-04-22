@@ -17,7 +17,7 @@ const Hero = () => {
                     <form className='pb-5'>
                         <div className='shadow bg-white border-gray-100 border-2 rounded-3xl flex justify-between pl-5 items-center'>
                             <FaMapMarkerAlt className='text-2xl text-pink-500' />
-                            <input className='w-full rounded-3xl outline-0 border-spacing-0'/>
+                            <input className='w-full rounded-3xl outline-0 border-spacing-0 pl-4'/>
                             <button className='p-2 px-7 lg:px-10 rounded-3xl bg-green-500 border-gray-100 border-2'>Search</button>
                         </div>
                     </form>
