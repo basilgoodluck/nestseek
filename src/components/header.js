@@ -13,7 +13,7 @@ function Header() {
                     <a href='./' className='border-white border-2 rounded-3xl bg-transparent py-1 px-3 mr-9'>Property</a>
                 </div>
                 <a href='./' className='hidden text-green-900 border-green-200 bg-green-200 border-2 px-2 py-1 lg:px-4 lg:py-2 text-base lg:text-xl rounded-3xl'>Sign Up</a>
-                <div className='lg:hidden text-3xl text-white p-1  bg-green-600 font-black'><AiOutlineMenuUnfold className='font-black' /></div>
+                <div className='lg:hidden text-3xl text-white p-1  bg-green-600 font-black rounded-3xl'><AiOutlineMenuUnfold className='font-black' /></div>
             </div>
         </div>
     </div>
