@@ -2,15 +2,19 @@ import './App.css';
 import Featured from './components/featured';
 import Hero from './components/hero';
 import Tour from './components/tour'
-import ReviewCard from './components/reviewCard';
+import Review from './components/review';
+import Blog from './components/blog';
+import Form from './components/form'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden" style={{fontFamily: "lexend"}}>
       <Hero />
       <Featured />
       <Tour />
-      <ReviewCard />
+      <Review />
+      <Blog />
+      <Form />
     </div>
   );
 }
