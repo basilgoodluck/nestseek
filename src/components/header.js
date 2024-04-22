@@ -4,7 +4,7 @@ import { AiOutlineMenuUnfold } from "react-icons/ai";
 function Header() {
   return (
     <div>
-        <div className='bg-white shadow-sm flex m-auto py-4 px-3 md:px-16 justify-between items-center fixed w-full z-50'>
+        <div className='bg-white shadow-sm flex m-auto py-4 px-3 md:px-16 justify-between items-center w-full z-50'>
             <h1 className='font-bold'>NESTSEEK</h1>
             <div className='flex justify-between items-center'>
                 <div className='hidden lg:flex justify-between items-center px-9 text-white'>
