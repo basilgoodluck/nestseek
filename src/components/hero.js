@@ -13,7 +13,7 @@ const Hero = () => {
             <div className='flex m-auto lg:justify-start lg:items-center flex-col lg:flex-row justify-center py-3 px-2 lg:pl-16 overflow-x-hidden' style={{minHeight: '100vh', maxHeight: '100vh'}}>
                 <div className='item-start pt-6 lg:py-0 relative w-full lg:w-2/5'>
                     <h1 className='font-black text-4xl pb-5' style={{fontFamily: "lexend"}}>Find The Place to Live Your Dream Easily Here</h1>
-                    <p className="pb-5">Everything you need about finding your place to live will be here, where it will be easier for you</p>
+                    <p className="pb-5 text-gray-800 text-base">Everything you need about finding your place to live will be here, where it will be easier for you</p>
                     <form className='pb-5'>
                         <div className='shadow bg-white border-gray-100 border-2 rounded-3xl flex justify-between pl-5 items-center'>
                             <FaMapMarkerAlt className='text-2xl text-pink-500' />
@@ -22,6 +22,7 @@ const Hero = () => {
                         </div>
                     </form>
                     <p className='font-bold'>Our Partnership</p>
+                    <p className="pb-5 text-gray-800 text-sm">Everything you need about finding your place to live will be here, where it will be easier for you</p>
                     <div className='flex justify-start lg:pb-3 items-center'>
                         <img src='/images/airbnb.png' alt='Logos' className='py-2 pr-2 lg:pr-6'/>
                         <img src='/images/traveloka_logo 2.png' alt='Logos' className='py-2 pr-2 lg:pr-6'/>
