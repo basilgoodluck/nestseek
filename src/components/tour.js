@@ -20,7 +20,7 @@ function Tour() {
             </div>
             <div className='pt-6 flex justify-start border-t border-gray-100 items-center'>
               <div className='flex justify-between pr-16'>
-                <img src='./images/ronald.png' alt='ronald' className='' />
+                <img src='./images/Ronald.png' alt='ronald' className='' />
                 <div className='pl-2 text-gray-600'>
                   <h4>Dianne Russel</h4>
                   <p>Managing Director</p>
