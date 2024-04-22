@@ -19,15 +19,15 @@ function Tour() {
                 <p>2 Floors </p>
             </div>
             <div className='pt-6 flex justify-start border-t border-gray-100 items-center'>
-              <div className='flex justify-between pr-16'>
-                <img src='./images/Ronald.png' alt='ronald' className='' />
-                <div className='pl-2 text-gray-600'>
+              <div className='flex justify-between '>
+                <img src='./images/Dianne.png' alt='ronald'/>
+                <div className=' text-gray-600'>
                   <h4>Dianne Russel</h4>
                   <p>Managing Director</p>
                 </div>
               </div>
-              <div className='bg-green-500 flex justify-between items-center justify-items-start rounded-3xl p-2'>
-                <IoCallSharp className='text-white' /> <p className='text-white pl-2'>Contact now</p>
+              <div className='bg-green-500 flex justify-center text-md lg:text-sm items-center justify-items-start rounded-3xl lg:p-2 p-1'>
+                <IoCallSharp className='text-white' /> <p className='text-white'>Contact now</p>
               </div>
             </div>
           </div>
