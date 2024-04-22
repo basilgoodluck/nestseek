@@ -3,7 +3,7 @@ import ReviewCard from './reviewCard'
 
 function Rewiew() {
   return (
-    <div className='flex justify-center items-start mt-16 text-md'>
+    <div className='flex justify-center items-start mt-16 text-sm'>
         <div className=''>
             <p className='text-orange-400 text-center'>---</p>
             <p className='text-orange-400 text-center'>See Our Review</p>
