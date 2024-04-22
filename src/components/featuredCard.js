@@ -9,7 +9,7 @@ function FeaturedCard() {
       <h1 className='pb-4 text-gray-600 '>Roselands House</h1>
       <p className='pb-4 text-gray-600'>$ 50,000,000</p>   
       <div className='pb-4 flex justify-start text-gray-600' >
-        <img src='./images/dianne.png' alt='houseImg' className='' />
+        <img src='./images/Dianne.png' alt='houseImg' className='' />
         <div>
           <h4>Dianne Russell</h4>
           <p>Manchester, Kentuchy</p>
