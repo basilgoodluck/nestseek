@@ -6,7 +6,7 @@ function ReviewCard() {
   return (
     <div>
         <div className='flex items-center justify-center m-auto p-2 lg:p-6'>
-            <div className='relative'>
+            <div className='relative' style={{minHeight: '50vh'}}>
                 <img src='./images/reviewImg-c.png' alt='reviewImg-c'/>
                 <div className='absolute -bottom-24 left-24 right-24 shadow-2xl p-6 bg-white rounded-3xl'>
                     <hi className='font-bold'>Best! I got the house I wanted through Hounter</hi>
