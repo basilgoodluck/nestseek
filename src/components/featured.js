@@ -5,7 +5,7 @@ import FeaturedCard from './featuredCard';
 function Featured() {
   return (
     <div className=''>
-        <div className='' style={{minHeight: '70vh'}}>
+        <div className='pb-8' style={{minHeight: '70vh'}}>
             <p className='text-orange-400 pb-4 '>--- Our Recommendation</p>
             <div className='pb-3 pl-6'>
                 <div className='flex justify-between lg:pr-16 items-center'>
