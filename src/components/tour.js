@@ -21,12 +21,12 @@ function Tour() {
             <div className='pt-6 flex justify-start border-t border-gray-100 items-center'>
               <div className='flex justify-between '>
                 <img src='./images/Dianne.png' alt='ronald'/>
-                <div className=' text-gray-600'>
+                <div className=' text-gray-600 pr-6'>
                   <h4>Dianne Russel</h4>
                   <p>Managing Director</p>
                 </div>
               </div>
-              <div className='flex justify-center text-md lg:text-sm items-center justify-items-start rounded-3xl lg:p-2 p-1'>
+              <div className='flex justify-center text-md lg:text-sm items-center rounded-3xl lg:p-2 p-1'>
                 <IoCallSharp className='text-white bg-green-700 rounded-3xl p-2 text-3xl' /> <p className='text-black'>Contact now</p>
               </div>
             </div>

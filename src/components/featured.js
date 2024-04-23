@@ -10,7 +10,7 @@ function Featured() {
             <div className='pb-3 pl-6'>
                 <div className='flex justify-between lg:pr-16 items-center'>
                     <h1 className='lg:w-2/6 lg:text-2xl font-bold'>Featured House</h1>
-                    <div className='w-3/6 flex justify-between lg:justify-center items-center lg:w-1/3 text-gray-600'>
+                    <div className='w-4/6 flex justify-between lg:justify-center items-center lg:w-1/3 text-gray-600'>
                         <p className='lg:ml-5 bg-green-400 py-1 px-2 lg:px-4 rounded-3xl text-md'>House</p>
                         <p className='lg:ml-5 bg-gray-200 py-1 px-2 rounded-3xl text-sm'>Villa</p>
                         <p className='lg:ml-5 bg-gray-200 py-1 px-2 rounded-3xl text-md'>Apartment</p>
