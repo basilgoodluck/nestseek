@@ -2,7 +2,7 @@ import React from 'react'
 
 function FeaturedCard() {
   return (
-    <div className='pr-5 text-sm lg:text-xl ' style={{minWidth: "250px", maxWidth: "250px"}}>
+    <div className='pr-5 text-sm lg:text-xl min-w-64 lg:min-w-80'>
       <div className='pb-4'>
         <img src='./images/roseland.png' alt='houseImag' />
       </div>     

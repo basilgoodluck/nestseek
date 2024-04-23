@@ -7,7 +7,7 @@ function Blog() {
         <div className='px-2 lg:px-16 pt-16 pb-8'>
             <p className='text-orange-400 text-center'>---</p>
             <p className='text-orange-400 text-center'>See Our Review</p>
-            <h1 className='font-bold text-2xl text-center'>What Our Users Say About Us</h1>
+            <h1 className='font-bold lg:text-2xl text-center text-sm'>What Our Users Say About Us</h1>
 
             <div className='flex justify-start items-start lg:justify-center lg:items-center pt-6 lg:flex-row flex-col'>
                 <div className='lg:w-1/2'>
