@@ -26,8 +26,8 @@ function Tour() {
                   <p>Managing Director</p>
                 </div>
               </div>
-              <div className='bg-green-500 flex justify-center text-md lg:text-sm items-center justify-items-start rounded-3xl lg:p-2 p-1'>
-                <IoCallSharp className='text-white' /> <p className='text-white'>Contact now</p>
+              <div className='flex justify-center text-md lg:text-sm items-center justify-items-start rounded-3xl lg:p-2 p-1'>
+                <IoCallSharp className='text-white bg-green-700 rounded-3xl p-2 text-3xl' /> <p className='text-black'>Contact now</p>
               </div>
             </div>
           </div>
