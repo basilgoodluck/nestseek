@@ -4,7 +4,7 @@ import { IoCallSharp } from "react-icons/io5";
 function Tour() {
   return (
     <div>
-      <div className='pl-2 lg:px-16 flex justify-between lg:items-center flex-col lg:flex-row m-auto pb-16'>
+      <div className='pl-2 lg:px-16 flex justify-between lg:items-center flex-col lg:flex-row m-auto pb-16 text-sm'>
         <div className='lg:w-1/2 lg:pr-16'>
           <p className='text-orange-400 pb-4'>--- Ready To Sell</p>
           <div className='px-6 '>
