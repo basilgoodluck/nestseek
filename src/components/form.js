@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form() {
   return (
-    <div className='pt-8 pb-8'>
+    <div className='pt-16 pb-8'>
         <div className='text-center bg-cover bg-center bg-Subscribe w-11/12 m-auto p-6 rounded-3xl'>
             <h1>Subscribe For More Info and update from Hounter</h1>
             <form className='pb-5'>

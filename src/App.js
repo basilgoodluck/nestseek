@@ -8,7 +8,7 @@ import Form from './components/form'
 
 function App() {
   return (
-    <div className="App overflow-x-hidden" style={{fontFamily: "lexend"}}>
+    <div className="App overflow-x-hidden text-sm" style={{fontFamily: "lexend"}}>
       <Hero />
       <Featured />
       <Tour />

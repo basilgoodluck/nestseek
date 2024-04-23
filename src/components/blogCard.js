@@ -6,7 +6,7 @@ function BlogCard() {
     <div>
         <div className='grid grid-cols-1 gap-3 pl-6 text-gray-600'>
             <div className='flex justify-start items-center '>
-                <img src='./images/robert.png' alt='profileIMg' />
+                <img src='./images/Robert.png' alt='profileIMg' />
                 <p className='pl-3 font-bold text-black'>Dianne Russell</p>
             </div>
             <h4>The things we need to check when we want to buy a house</h4>
